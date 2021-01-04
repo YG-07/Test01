@@ -5,7 +5,7 @@
 git tag <tagname>
 
 如果你想添加tag的描述，使用-a
-git tag <tagname> -a 
+git tag -a <tagname> -m "XXX..."
 
 将tag推送到远程，使用以下命令：
 git push origin --tags
